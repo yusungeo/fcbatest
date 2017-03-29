@@ -1,0 +1,7 @@
+Edit post here!
+
+<form action = "/update/<%=@post.id%>" method="POST">
+    <input type = "text" name="m_title" value = "<%=@post.title%>">
+    <input type = "text" name="m_content" value = "<%=@post.content%>">
+    <input type = "submit">
+</form>
